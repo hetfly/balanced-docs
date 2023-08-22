@@ -351,7 +351,7 @@
 
 }
 
-[class='searchBox_node_modules-@docusaurus-theme-classic-lib-theme-Navbar-Search-styles-module'] {
+[class^='searchBox_'] {
   width: 100%;
   max-width: 300px;
   margin-left: auto;
