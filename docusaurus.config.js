@@ -114,6 +114,11 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  plugins: [
+    [require.resolve("@cmfcmf/docusaurus-search-local"), {
+      indexBlog: false,
+    }]
+  ],
 };
 
 module.exports = config;
