@@ -71,6 +71,10 @@ const config = {
             label: 'Balanced',
             position: 'right',
           },
+          {
+            type: 'search',
+            position: 'left',
+          },
         ],
       },
       footer: {
