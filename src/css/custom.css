@@ -316,13 +316,13 @@
   --aa-action-icon-size: 20px;
   --aa-text-color-rgb: 38,38,39;
   --aa-text-color-alpha: 1;
-  --aa-primary-color-rgb: 62,52,211;
+  --aa-primary-color-rgb: 47,204,220 !important;
   --aa-primary-color-alpha: 0.2;
   --aa-muted-color-rgb: 128,126,163;
   --aa-muted-color-alpha: 0.6;
-  --aa-panel-border-color-rgb: 128,126,163;
+  --aa-panel-border-color-rgb: 47,204,220 !important;
   --aa-panel-border-color-alpha: 0.3;
-  --aa-input-border-color-rgb: 128,126,163;
+  --aa-input-border-color-rgb: 47,204,220 !important;
   --aa-input-border-color-alpha: 0.8;
   --aa-background-color-rgb: 255,255,255;
   --aa-background-color-alpha: 1;
@@ -330,13 +330,13 @@
   --aa-input-background-color-alpha: 1;
   --aa-selected-color-rgb: 179,173,214;
   --aa-selected-color-alpha: 0.205;
-  --aa-description-highlight-background-color-rgb: 245,223,77;
+  --aa-description-highlight-background-color-rgb: 47,204,220 !important;
   --aa-description-highlight-background-color-alpha: 0.5;
   --aa-detached-media-query: (max-width:680px);
   --aa-detached-modal-media-query: (min-width:680px);
   --aa-detached-modal-max-width: 680px;
   --aa-detached-modal-max-height: 500px;
-  --aa-overlay-color-rgb: 115,114,129;
+  --aa-overlay-color-rgb: 47,204,220;
   --aa-overlay-color-alpha: 0.4;
   --aa-panel-shadow: 0 0 0 1px #23263b1a,0 6px 16px -4px #23263b26;
   --aa-scrollbar-width: 13px;
@@ -344,7 +344,7 @@
   --aa-scrollbar-track-background-color-alpha: 1;
   --aa-scrollbar-thumb-background-color-alpha: 1;
   --aa-search-input-height: 36px;    
-  --aa-icon-color-rgb: 119,119,163;
+  --aa-icon-color-rgb: 47,204,220 !important;
   --aa-scrollbar-thumb-background-color-rgb: var(--aa-background-color-rgb);
 
 
@@ -356,4 +356,13 @@
   max-width: 300px;
   margin-left: auto;
   margin-right: auto;
+}
+
+[class^='searchBox_'] .aa-DetachedSearchButtonIcon {
+  color: rgb(47,204,220) !important
+}
+
+[class^='searchBox_'] .aa-DetachedSearchButtonPlaceholder {
+  color: rgb(47,204,220) !important;
+  opacity: 0.4;
 }
